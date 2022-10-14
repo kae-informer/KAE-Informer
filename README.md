@@ -2,6 +2,8 @@
 ### (1) Raw data files
 The uploaded files including the 3-week raw data of 10 large-scale application running in the data center (i.e. app0~app9). All the data can be found at folder: "data/data_submit/", which consists of 10 .csv files.
 
+Part of the MQPS datasets can be found at the folder: "part_of_MQPS"
+
 ### (2) Train/Test Dataset Example
 We choose the aplication app8, which is a front-end appliation for the customers. In general, we construct the example dataset at folder: "data/data_train_test/app8-example/". The ".npy" file in "data/data_train_test/app8-example/" save the train/test dataset sample.
 Specifically, we construct: 1) train dataset for 8-hour QPS sequence (480 items) and 2) test dataset for 1-hour QPS sequence (60 items). We list the dataset files as follow:
